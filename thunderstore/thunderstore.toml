@@ -1,0 +1,31 @@
+[config]
+schemaVersion = "0.0.1"
+
+[package]
+namespace = "Ab5oluteZer0"
+name = "SeedCrafting"
+# Nadpisywane numerem z tagu wydania przy publikacji (workflow thunderstore.yml).
+versionNumber = "1.0.0"
+description = "Workbench recipes that turn one fully grown crop back into 2 seeds of the same type - no more buying seeds from the trader."
+websiteUrl = "https://github.com/Ab5oluteZer0/valheim-seed-crafting"
+containsNsfwContent = false
+
+[package.dependencies]
+"denikson-BepInExPack_Valheim" = "5.4.2351"
+
+[build]
+icon = "./icon.png"
+readme = "./README.md"
+outdir = "./build"
+
+[[build.copy]]
+source = "./dist"
+target = ""
+
+[publish]
+repository = "https://thunderstore.io"
+communities = ["valheim"]
+
+[publish.categories]
+# "ai-generated": zasada Thunderstore dla paczek, ktorych kod powstal z pomoca AI.
+valheim = ["mods", "crafting", "client-side", "ai-generated"]

@@ -6,16 +6,19 @@ so you don't have to keep buying seeds from the trader.
 
 Recipes (require a workbench nearby):
 
-| Input (1x)  | Output (2x)   |
-|-------------|---------------|
-| Carrot      | CarrotSeeds   |
-| Turnip      | TurnipSeeds   |
-| Onion       | OnionSeeds    |
-| Kale        | KaleSeeds     |
-| Poteitr     | PoteitrSeeds  |
+| Input (1x)  | Output (2x)    |
+|-------------|----------------|
+| Carrot      | Carrot Seeds   |
+| Turnip      | Turnip Seeds   |
+| Onion       | Onion Seeds    |
+| Kale        | Kale Seeds     |
+| Poteitr     | Poteitr Seeds  |
 
 No other resources are consumed. Doesn't touch crafting stations you're
-not using, doesn't patch anything unrelated.
+not using, doesn't patch anything unrelated. Like any other recipe in the
+game, each one shows up in the list once you've picked up that crop.
+
+![Seed recipes in the workbench list](docs/recipes.png) ![Carrot Seeds x2 from one carrot](docs/recipe-detail.png)
 
 > **Unofficial mod.** This is a fan-made mod, not affiliated with or endorsed by
 > Iron Gate. It marks your game as modded (the game shows this in the main menu),

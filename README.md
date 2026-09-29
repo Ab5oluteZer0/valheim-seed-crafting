@@ -72,6 +72,12 @@ The build automatically copies the built DLL into
   renames them, that specific recipe is silently skipped (logged as a
   warning) rather than crashing.
 
+## Support
+
+All my mods are free and will stay free. If you enjoy them and want to say
+thanks, you can leave a voluntary tip via [PayPal](https://www.paypal.com/ncp/payment/4JQUSHTJGBAG6) - it doesn't
+unlock anything, it just helps me keep making mods.
+
 ## License
 
 MIT - see [LICENSE](LICENSE).

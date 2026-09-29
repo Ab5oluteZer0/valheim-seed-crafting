@@ -17,6 +17,10 @@ Recipes (require a workbench nearby):
 No other resources are consumed. Doesn't touch crafting stations you're
 not using, doesn't patch anything unrelated.
 
+> **Unofficial mod.** This is a fan-made mod, not affiliated with or endorsed by
+> Iron Gate. It marks your game as modded (the game shows this in the main menu),
+> as Iron Gate asks mod authors to do.
+
 ## Requirements
 
 - Valheim (tested on 1.0.15)

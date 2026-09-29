@@ -19,7 +19,7 @@ namespace SeedCrafting
     {
         public const string PluginGUID = "com.michal.valheim.seedcrafting";
         public const string PluginName = "Seed Crafting";
-        public const string PluginVersion = "0.1.1";
+        public const string PluginVersion = "1.0.0";
 
         // (nazwa prefabu warzywa, nazwa prefabu nasiona, ile nasion za 1 warzywo)
         private static readonly (string CropItem, string SeedItem, int SeedAmount)[] Recipes =
@@ -39,6 +39,9 @@ namespace SeedCrafting
         private void Awake()
         {
             Log = Logger;
+            // Gra prosi mody o ustawienie tej flagi: w menu pojawia sie napis, ze gra jest
+            // zmodowana (Iron Gate wymaga oznaczania modow jako nieoficjalnych).
+            Game.isModded = true;
             new Harmony(PluginGUID).PatchAll(typeof(SeedCraftingPlugin).Assembly);
         }
 

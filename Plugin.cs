@@ -19,7 +19,7 @@ namespace SeedCrafting
     {
         public const string PluginGUID = "com.michal.valheim.seedcrafting";
         public const string PluginName = "Seed Crafting";
-        public const string PluginVersion = "1.0.0";
+        public const string PluginVersion = "1.0.1";
 
         // (nazwa prefabu warzywa, nazwa prefabu nasiona, ile nasion za 1 warzywo)
         private static readonly (string CropItem, string SeedItem, int SeedAmount)[] Recipes =

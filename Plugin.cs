@@ -3,7 +3,7 @@ using BepInEx.Logging;
 using HarmonyLib;
 using UnityEngine;
 
-namespace Mod1_SeedCrafting
+namespace SeedCrafting
 {
     // Crafting: 1x w pelni wyrosla roslina (zebrane warzywo) -> 2x nasiono tego samego typu.
     // Rejestracja recipe bezposrednio przez natywne API gry (ObjectDB.m_recipes), Harmony postfix
@@ -19,7 +19,7 @@ namespace Mod1_SeedCrafting
     {
         public const string PluginGUID = "com.michal.valheim.seedcrafting";
         public const string PluginName = "Seed Crafting";
-        public const string PluginVersion = "0.1.0";
+        public const string PluginVersion = "0.1.1";
 
         // (nazwa prefabu warzywa, nazwa prefabu nasiona, ile nasion za 1 warzywo)
         private static readonly (string CropItem, string SeedItem, int SeedAmount)[] Recipes =

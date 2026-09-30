@@ -17,9 +17,9 @@ namespace SeedCrafting
     [BepInPlugin(PluginGUID, PluginName, PluginVersion)]
     public class SeedCraftingPlugin : BaseUnityPlugin
     {
-        public const string PluginGUID = "com.michal.valheim.seedcrafting";
+        public const string PluginGUID = "com.ab5olutezer0.valheim.seedcrafting";
         public const string PluginName = "Seed Crafting";
-        public const string PluginVersion = "1.0.1";
+        public const string PluginVersion = "1.0.2";
 
         // (nazwa prefabu warzywa, nazwa prefabu nasiona, ile nasion za 1 warzywo)
         private static readonly (string CropItem, string SeedItem, int SeedAmount)[] Recipes =
